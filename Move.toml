@@ -1,0 +1,21 @@
+[package]
+name = "alura"
+version = "1.0.0"
+authors = []
+
+[addresses]
+alura="0xb68aad7770a6a3a63162898ddd4d9efedc970cca1404d65d24c867f7393beadd"
+aptos_framework="0x1"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dependencies.AptosStdlib]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev='mainnet'
+subdir = 'aptos-move/framework/aptos-stdlib'
+
+[dev-dependencies]

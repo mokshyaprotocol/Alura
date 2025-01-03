@@ -1,0 +1,12 @@
+[addresses]
+alurax = "5ba6ff05f9728e0a24cb9991bbb5916c08e982252b2d2b890873af9750a797a1"
+
+[dev-dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[package]
+name = "alurax"
+upgrade_policy = "immutable"
+version = "1.0.0"
